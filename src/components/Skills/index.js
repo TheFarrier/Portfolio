@@ -9,39 +9,19 @@ class Skills extends Component {
     <Card title={"Skills"}>
       <SkillCard>
         <h5><p className="card-title">Languages</p></h5>
-          <ul>
-            <li><i className="fab fa-html5"></i> Html</li>
-            <li><i className="fab fa-css3-alt"></i> CSS</li>
-            <li><i className="fab fa-js"></i> Javascript</li>
-            <li>SQL</li>
-            <li><i className="fab fa-git-alt"></i> GIT</li>
-          </ul>
+          <img className="skill-image" src={require('../../images/languages.jpg')}></img>
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Dev Tools</p></h5>
-          <ul>
-            <li>Heroku</li>
-            <li>Sequalize</li>
-            <li>Mongoose</li>
-            <li>Github</li>
-            <li>NPM</li>
-          </ul>
+        <img className="skill-image" src={require('../../images/tools.jpg')}></img>
       </SkillCard>
       <SkillCard>
           <h5><p className="card-title">Databases</p></h5>
-          <ul>
-            <li>MySQL</li>
-            <li>Mongodb</li>
-            <li>Client-Side Storage</li>
-          </ul>
+          <img className="skill-image" src={require('../../images/Databases.jpg')}></img>
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Libraries</p></h5>
-          <ul>
-            <li>JQuery</li>
-            <li>React</li>
-            <li>Handlebars</li>
-          </ul>
+        <img className="skill-image" src={require('../../images/libraries.jpg')}></img>
       </SkillCard>
     </Card>
   );
