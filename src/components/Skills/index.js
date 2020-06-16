@@ -9,19 +9,20 @@ class Skills extends Component {
     <Card title={"Skills"}>
       <SkillCard>
         <h5><p className="card-title">Languages</p></h5>
-          <img className="skill-image" src={require('../../images/languages.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/languages.jpg')}></img>
+      
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Dev Tools</p></h5>
-        <img className="skill-image" src={require('../../images/tools.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/tools.jpg')}></img>
       </SkillCard>
       <SkillCard>
           <h5><p className="card-title">Databases</p></h5>
-          <img className="skill-image" src={require('../../images/Databases.jpg')}></img>
+          <img className="card-img skill-image" src={require('../../images/Databases.jpg')}></img>
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Libraries</p></h5>
-        <img className="skill-image" src={require('../../images/libraries.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/libraries.jpg')}></img>
       </SkillCard>
     </Card>
   );
