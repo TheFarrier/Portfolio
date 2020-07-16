@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import "./style.css"
 import { Card } from "../Card";
-import { BigProjectCard, SmallProjectCard } from "../ProjectCard";
+import { WideProjectCard, BigProjectCard, SmallProjectCard } from "../ProjectCard";
 
 
 class Projects extends Component {
@@ -9,6 +9,13 @@ class Projects extends Component {
     return (
       <a id="portfolio-start">
         <Card title={"Projects"}>
+
+          <WideProjectCard 
+            href = {"https://vendorhall.herokuapp.com/"}
+            image = {require('../../images/vhallwide.jpg')}
+            title = {"Vendorhall E-Commerce Site"}
+            github = {"https://github.com/TheFarrier/VendorHall"}
+          />
           <BigProjectCard 
             href = {"https://gif-lash.herokuapp.com/"}
             image = {require('../../images/giflash.jpg')}
