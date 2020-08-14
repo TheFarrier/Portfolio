@@ -15,6 +15,10 @@ background-color: black;
   display: inline;
 }
 
+.project:hover .description-container{
+  display: block;
+}
+
 .menu{
   background-color: rgba(0, 0, 0, 0.753);
   border-radius: 3%;
@@ -22,7 +26,20 @@ background-color: black;
   display: none;
 }
 
+.description-container {
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 3%;
+  padding: 2px 5px;
+  color: white;
+  display: none;
+  font-size: 14pt;
+}
+
 a{
+  color: white;
+}
+
+p{
   color: white;
 }
 

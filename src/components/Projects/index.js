@@ -15,18 +15,21 @@ class Projects extends Component {
             image = {require('../../images/vhallwide.jpg')}
             title = {"Vendorhall E-Commerce Site"}
             github = {"https://github.com/TheFarrier/VendorHall"}
+            description = {"An e-commerce site, similar to Etsy. Made using the MERN stack, leveraging Auth0 and Stripe APIs"}
           />
           <BigProjectCard 
             href = {"https://gif-lash.herokuapp.com/"}
             image = {require('../../images/giflash.jpg')}
             title = {"Gif-Lash Multiplayer Game"}
             github = {"https://github.com/TheFarrier/Gif-Lash"}
+            description ={"A multiplayer humor game inspired by party games like Cards Against Humanity, and Quiplash. Players search for gifs that best fit the given prompt, and try to come up with the funniest response"}
           />
           <BigProjectCard 
             href = {"https://thefarrier.github.io/bored-project/"}
             image = {require('../../images/bored.jpg')}
             title = {"Neverbored"}
             github = {"https://github.com/TheFarrier/Never-Bored"}
+            description = {"A web app to find activities to do in your area."}
           />
           <SmallProjectCard 
             href = {"https://tranquil-oasis-71844.herokuapp.com/?id=5ecf13ddfbda0800175ba213"}
