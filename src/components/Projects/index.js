@@ -22,7 +22,7 @@ class Projects extends Component {
             image = {require('../../images/giflash.jpg')}
             title = {"Gif-Lash Multiplayer Game"}
             github = {"https://github.com/TheFarrier/Gif-Lash"}
-            description ={"A multiplayer humor game inspired by party games like Cards Against Humanity, and Quiplash. Players search for gifs that best fit the given prompt, and try to come up with the funniest response"}
+            description ={"A multiplayer humor game inspired by party games like Quiplash. Players search for gifs and try to come up with the funniest response for the prompt, "}
           />
           <BigProjectCard 
             href = {"https://thefarrier.github.io/bored-project/"}
@@ -36,36 +36,42 @@ class Projects extends Component {
             image = {require('../../images/workout.jpg')}
             title = {"Workout Tracker"}
             github = {"https://github.com/TheFarrier/Workout-Tracker"}
+            description = {"Bootcamp Homework: Workout tracker that stores previous workout with MongoDB and Express"}
           />
           <SmallProjectCard 
             href = {"https://thefarrier.github.io/Homework5/Develop/index.html"}
             image = {require('../../images/Scheduler.jpg')}
             title = {"Daily Scheduler"}
             github = {"https://github.com/TheFarrier/TheFarrier.github.io/tree/master/Homework5"}
+            description = {"Bootcamp Homework: A 1-day schedule saved in local storage that resets daily. Uses moment.js and jQuery."}
           />
           <SmallProjectCard 
             href = {"https://note-taker-8754.herokuapp.com/"}
             image = {require('../../images/notetaker.jpg')}
             title = {"Note Taker"}
             github = {"https://github.com/TheFarrier/TheFarrier.github.io/tree/master/Homework11"}
+            description = {"Bootcamp Homework: A note taker using jQuery and Express, that uses a json file as a database"}
           />
           <SmallProjectCard 
             href = {"https://thefarrier.github.io/Homework3/Develop/index.html"}
             image = {require('../../images/password.jpg')}
             title = {"Password Generator"}
             github = {"https://github.com/TheFarrier/TheFarrier.github.io/tree/master/Homework3"}
+            description = {"Bootcamp Homework: A password genertor using javascript to generate a string of characters"}
           />
           <SmallProjectCard 
             href = {"https://thefarrier.github.io/Homework4/Develop/index.html"}
             image = {require('../../images/quiz.gif')}
             title = {"Quiz App"}
             github = {"https://github.com/TheFarrier/TheFarrier.github.io/tree/master/Homework4"}
+            description = {"Bootcamp Homework: A quiz that uses javascript timers and stores scores in local storage"}
           />
           <SmallProjectCard 
             href = {"https://thefarrier.github.io/Homework6/Develop/index.html"}
             image = {require('../../images/weather.jpg')}
             title = {"Weather App"}
             github = {"https://github.com/TheFarrier/TheFarrier.github.io/tree/master/Homework6"}
+            description = {"Bootcamp Homework: A weather app that returns a 1-week forecasst from the OpenWeather API"}
           />
         </Card>
       </a>
