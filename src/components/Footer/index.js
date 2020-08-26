@@ -4,7 +4,7 @@ import "./style.css"
 function Footer() {
   return (
     <footer>
-      <div class="footer">
+      <div className="footer">
         <p>NKFarrey@gmail.com</p>
       </div>
     </footer>

@@ -3,7 +3,7 @@ import "./style.css"
 
 export function AboutCard(props) {
   return (
-    <div className={props.type}  className="row justify-content-center no-gutters" >
+    <div className="row justify-content-center no-gutters" >
       <div className="col-sm-12">
         <div className="card about">
           <div className="card-body">
@@ -20,7 +20,7 @@ export function AboutCard(props) {
 
 export function Card(props) {
   return (
-    <div className={props.type}  className="row justify-content-center no-gutters" >
+    <div className="row justify-content-center no-gutters" >
       <div className="col-sm-12">
         <div className="card">
           <div className="card-body">

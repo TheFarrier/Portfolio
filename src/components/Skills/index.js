@@ -9,20 +9,20 @@ class Skills extends Component {
     <Card title={"Skills"}>
       <SkillCard>
         <h5><p className="card-title">Languages</p></h5>
-        <img className="card-img skill-image" src={require('../../images/languages.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/languages.jpg')} alt={"HTML5, CSS, JS"}></img>
       
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Dev Tools</p></h5>
-        <img className="card-img skill-image" src={require('../../images/tools.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/tools.jpg')} alt={"Node.js, npm, git, github"}></img>
       </SkillCard>
       <SkillCard>
           <h5><p className="card-title">Databases</p></h5>
-          <img className="card-img skill-image" src={require('../../images/Databases.jpg')}></img>
+          <img className="card-img skill-image" src={require('../../images/Databases.jpg')} alt={"MySQL, Sequelize, MongoDB, Mongoose"}></img>
       </SkillCard>
       <SkillCard>
         <h5><p className="card-title">Libraries</p></h5>
-        <img className="card-img skill-image" src={require('../../images/libraries.jpg')}></img>
+        <img className="card-img skill-image" src={require('../../images/libraries.jpg')} alt={"jQuery, React"}></img>
       </SkillCard>
     </Card>
   );

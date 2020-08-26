@@ -5,7 +5,7 @@ import "./style.css"
 function Navibar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#24b65c"}}>
-      <a className="navbar-brand" href="#">Nathaniel Farrey</a>
+      <span className="navbar-brand">Nathaniel Farrey</span>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
