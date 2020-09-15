@@ -7,14 +7,16 @@ export function WideProjectCard(props) {
       <div className="card project-card">
         <div className="project">
           <img src={props.image} className= "card-img-top image" alt={props.title} />
-          <div className="card-img-overlay">
-            <h4><a href={props.href} className="card-title menu">{props.title}</a></h4>
-            <p><h5 className="card-title menu">{props.technologies}</h5></p>
-            <button type="button" className="btn btn-link menu"><a href={props.github}><i className="fab fa-github fa-3x"></i></a></button>
-          </div>
         </div>
         <div className="card-body">
-          <h5>{props.title}</h5>
+          <h5>
+            <a href={props.href}>{props.title}</a>
+            <button type="button" className="btn btn-link">
+              <a href={props.github}>
+                <i className="fab fa-github fa-2x"></i>
+              </a>
+            </button>
+          </h5>
           <p>{props.description}</p>
         </div>
       </div>
@@ -28,14 +30,16 @@ export function BigProjectCard(props) {
       <div className="card project-card">
         <div className="project">
           <img src={props.image} className= "card-img-top image" alt={props.title} />
-          <div className="card-img-overlay">
-            <h4><a href={props.href} className="card-title menu">{props.title}</a></h4>
-            <p><h5 className="card-title menu">{props.technologies}</h5></p>
-            <button type="button" className="btn btn-link menu"><a href={props.github}><i className="fab fa-github fa-3x"></i></a></button>
-          </div>
         </div>
         <div className="card-body">
-          <h5>{props.title}</h5>
+            <h5>
+              <a href={props.href}>{props.title}</a>
+              <button type="button" className="btn btn-link">
+                <a href={props.github}>
+                  <i className="fab fa-github fa-2x"></i>
+                </a>
+              </button>
+            </h5>
           <p>{props.description}</p>
         </div>
       </div>
@@ -49,13 +53,16 @@ export function SmallProjectCard(props) {
       <div className="card project-card">
         <div className="project">
           <img src={props.image} className= "card-img-top image" alt={props.title} />
-          <div className="card-img-overlay">
-            <h4><a href={props.href} className="card-title menu">{props.title}</a></h4>
-            <button type="button" className="btn btn-link menu"><a href={props.github}><i className="fab fa-github fa-3x"></i></a></button>
-          </div>
         </div>
         <div className="card-body">
-          <h5>{props.title}</h5>
+          <h5>
+            <a href={props.href}>{props.title}</a>
+            <button type="button" className="btn btn-link">
+              <a href={props.github}>
+                <i className="fab fa-github fa-2x"></i>
+              </a>
+            </button>
+          </h5>
           <p>{props.description}</p>
         </div>
       </div>
