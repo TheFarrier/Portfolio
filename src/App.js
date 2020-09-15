@@ -6,6 +6,8 @@ import { Container } from 'react-bootstrap';
 import Skills  from './components/Skills';
 import Projects from './components/Projects';
 import Footer  from './components/Footer';
+import ProjectPage from './components/Projectpage'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -13,9 +15,18 @@ function App() {
     <div className="App">
       <Navbar />
       <Container>
-        <About />
-        <Skills />
-        <Projects />
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <About />
+              <Skills />
+              <Projects />
+            </Route>
+            <Route path="/project/">
+              <ProjectPage />
+            </Route>
+          </Switch>
+        </Router>
       </Container>
       <Footer />
     </div>
