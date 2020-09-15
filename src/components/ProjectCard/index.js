@@ -18,6 +18,7 @@ export function WideProjectCard(props) {
             </button>
           </h5>
           <p>{props.description}</p>
+          <p className="technologies">{props.technologies}</p>
         </div>
       </div>
     </section>
@@ -41,6 +42,7 @@ export function BigProjectCard(props) {
               </button>
             </h5>
           <p>{props.description}</p>
+          <p className="technologies">{props.technologies}</p>
         </div>
       </div>
     </section>
@@ -64,6 +66,7 @@ export function SmallProjectCard(props) {
             </button>
           </h5>
           <p>{props.description}</p>
+          <p className="technologies">{props.technologies}</p>
         </div>
       </div>
     </section>

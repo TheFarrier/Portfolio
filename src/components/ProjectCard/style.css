@@ -13,6 +13,7 @@
 .card-body{
   color: black;
   display: block;
+  font-size: 14pt;
 }
 
 .menu{
@@ -29,6 +30,10 @@
   padding: 2px 5px;
   color: black;
   display: none;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
+.technologies {
+  font-size: 12pt;
+  font-weight: bold;
+}
