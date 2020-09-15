@@ -11,6 +11,7 @@ function Navibar() {
       </button>
       <Collapse />
       <div className="justify-content-end">
+        <span className="h4 text-light"><i className="far fa-envelope"></i> NKFarrey</span><span className="h6 mr-3 text-light">@gmail.com</span>
         <a href="https://www.linkedin.com/in/nathaniel-farrey-61b4a786/" className="h4 mr-3 text-light"><i className="fab fa-linkedin"></i> LinkedIn</a>
         <a href="https://github.com/TheFarrier" className="h4 mr-3 text-light"><i className="fab fa-github"></i> GitHub</a>
       </div>
